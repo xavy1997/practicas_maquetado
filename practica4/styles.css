@@ -1,0 +1,172 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(2, 11, 41);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.main__container {
+   display: flex;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+
+}
+
+.blue-card {
+    width: 220px;
+    height: 390px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+    overflow: hidden;
+
+}
+
+
+
+
+.red-card {
+    width: 220px;
+    height: 420px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    overflow: hidden;
+    margin: 0 30px;
+    width: 250px;
+    
+}
+
+
+
+.green-card {
+    width: 220px;
+    height: 390px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to right, #96c93d, #00b09b);
+    overflow: hidden;
+}
+
+
+
+
+
+.subscribe__button-container {
+    width: 230px;
+    height: 170px;
+    
+
+}
+
+.subscribe__button {
+    top: 12%;
+    left: 10%;
+    font-size: 1rem;
+    
+}
+
+
+.type-of-subscription {
+    margin-top: 30px;
+    letter-spacing: 0.1rem;
+}
+
+.price {
+    font-size: 7.5rem;
+     position: relative;
+      margin: 10px 0px ;
+      z-index: 2;
+}
+
+span {
+    font-size: 1.8rem;
+    position: absolute;
+    left: -15%;
+    top: 65%;
+}
+
+.plan {
+    font-size: 1.3rem;
+      position: relative;
+      margin-bottom: 5px;
+
+}
+
+.plan-details {
+    text-transform: capitalize;
+    list-style: none;
+   
+}
+
+li {
+    margin: 15px 0px;
+}
+
+.subscribe__button-container {
+    cursor: pointer;
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    border-radius: 15%;
+      right: -34%;
+      bottom: -27%;
+      transition: all 0.4s ease-in-out;
+}
+
+.subscribe__button-container:hover {
+    width: 400px
+}
+
+.subscribe__button-container--red { 
+    cursor: pointer;
+    position: absolute;
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    border-radius: 15%;
+      right: -34%;
+      bottom: -27%;
+      transition: all 0.4s ease-in-out;
+}
+
+.subscribe__button-container--red:hover {
+    width: 440px
+}
+
+
+
+.subscribe__button {
+    text-shadow: 0 0 0;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+        left: 8%;
+        top: 10%;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.4s ease-in-out;
+    
+}
