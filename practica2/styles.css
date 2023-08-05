@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
     
 }
 
@@ -11,6 +10,7 @@ header {
     background: rgb(42, 245, 2);
     padding: 30px;
     border-radius: 6px;
+    font-weight: 700;
     
 }
 
@@ -22,47 +22,52 @@ nav {
 }
 
 
+section {
+    display: flex;
+    flex-direction: row;
+
+}
 
 .Aside1{
     background: rgb(241, 158, 3);
-    display: inline-block;
     text-align: center;
     color: white;
     border-radius: 6px;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    height: 80vh;
-    width: 10vh;
-
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+   
     
 }
 
 
 .Aside2{
     background: rgb(241, 158, 3);
-    display: inline-block;
     text-align: center;
     color: white;
     border-radius: 6px;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    height: 80vh;
-    width: 15vh;
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    
+   
 
 
 }
 
-.Main_container{
-background: red;
-border-radius: 6px;
-color: white;
-display: inline-block;
-width: 80%;
-padding: 50px;
-height: 70vh;
-margin-top: 80px;
+.Main_container {
+    display: flex;
+    flex-direction:column;
+    background: red;
+    border-radius: 6px;
+    color: white;
+    padding: 50px;
+    height: 70vh;
+    width: 50%;
+    margin: 50px;
+    font-weight: 800;
 
 }
 
@@ -70,7 +75,11 @@ article{
     color: black;
     background: white;
     border-radius: 6px;
+    padding: 30px;
 
+    flex-direction:column;
+    margin-top: 100px;
+    font-weight: 700;
 }
 
 
